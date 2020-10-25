@@ -1,0 +1,65 @@
+.all {
+    height: 1100px;
+    width: 800px;
+    margin: auto;
+    justify-content: center;
+    font-size: 45px;
+    font-family: monospace;
+}
+
+.output {
+    text-align: right;
+    border: 1px solid black;
+    vertical-align: bottom;
+    height: 100px;
+    width: 800px;
+    font-size: 90px;
+    background-color: black;
+    color: white;
+}
+
+.upcontainer {
+    display: grid;
+    width: 800px;
+    height: 201px;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.container {
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+button {
+    border: 1px solid black;
+}
+
+.num {
+    background: rgb(167, 167, 167);
+    color: black;
+    font-size: 45px;
+}
+
+.oper {
+    color: white;
+    background: orange;
+    font-size: 45px;
+}
+
+.downcontainer {
+    display: grid;
+    height: 201px;
+    width: 800px;
+    grid-template-columns: 3fr 1fr;
+}
+
+.null {
+    border: 1px solid black;
+}
+
+.ravno {
+    border: 1px solid black;
+}
